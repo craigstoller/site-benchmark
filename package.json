@@ -1,0 +1,10 @@
+{
+  "name": "site-benchmark",
+  "private": true,
+  "description": "A Claude Code skill for benchmarking against other websites, with a dependency-free capture script",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node tests/smoke.mjs"
+  }
+}
